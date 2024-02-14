@@ -23,7 +23,14 @@ void main() {
       result = num1 * num2;
       break;
     case '4':
+    if(num2!=0)
+    {
       result = num1 / num2;
+    }
+    else{
+        print("Can not divided zero");
+    }
+      
       break;
     default:
       print("Error: Invalid operation");
